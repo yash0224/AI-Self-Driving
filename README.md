@@ -1,6 +1,4 @@
-# Artificial Intelligence Project
-
-# Training Autonomous Vehicles
+# Training Autonomous Vehicles (AI Project)
 
 ## Problem Bank
 
