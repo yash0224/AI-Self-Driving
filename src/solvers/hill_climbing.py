@@ -13,9 +13,11 @@ from .objects.CarGeneticRides import CarGeneticRides
 
 
 def hill_climbing(filename):
+
     rides, rows, cols, n_vehicles, bonus, t = parse_input("../assets/input/" + filename + ".in")
     CarGeneticRides.BONUS = bonus
-    Rides.N_RIDES = len(rides) # Rides.N_RIDES = int(len(rides) / 300)
+
+    Rides.N_RIDES = len(rides) 
     Rides.N_CARS = n_vehicles
 
     solution = Rides(rides)
